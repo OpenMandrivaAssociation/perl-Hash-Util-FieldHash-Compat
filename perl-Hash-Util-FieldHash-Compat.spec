@@ -1,15 +1,15 @@
 %define upstream_name    Hash-Util-FieldHash-Compat
-%define upstream_version 0.03
+%define upstream_version 0.04
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Emulate Hash::Util::FieldHash using
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Hash/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Hash/Hash-Util-FieldHash-Compat-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::use::ok)
@@ -55,3 +55,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Feb 05 2010 cpan2dist 0.03-1mdv
 - initial mdv release, generated with cpan2dist
+
