@@ -1,4 +1,5 @@
-%define upstream_name    Hash-Util-FieldHash-Compat%define upstream_version 0.05
+%define upstream_name    Hash-Util-FieldHash-Compat
+%define upstream_version 0.07
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -54,5 +55,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Feb 05 2010 cpan2dist 0.03-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 

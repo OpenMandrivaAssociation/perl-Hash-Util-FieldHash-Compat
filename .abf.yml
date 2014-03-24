@@ -1,5 +1,6 @@
 removed_sources:
   Hash-Util-FieldHash-Compat-0.03.tar.gz: 8bb573cb778734b98a2bc885239f1d4001a81311
   Hash-Util-FieldHash-Compat-0.04.tar.gz: 5a0ed0bace2fe41e5e46f7f7ccf42b98143f07ae
-sources:
   Hash-Util-FieldHash-Compat-0.05.tar.gz: 88d7e17fb3ac982c17f28e7252f5ffedd977f38d
+sources:
+  Hash-Util-FieldHash-Compat-0.07.tar.gz: b5f8f555ae9a24468e526c7a542d9e40da4ad2c3
